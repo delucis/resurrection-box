@@ -28,6 +28,10 @@
     "145" : {
       "perc1" : "play rb.cue145-perc1.wav",
       "perc2" : "play rb.cue145-perc2.wav"
+    },
+    "147" : {
+      "perc1" : "stop",
+      "perc2" : "stop"
     }
   }
 }
