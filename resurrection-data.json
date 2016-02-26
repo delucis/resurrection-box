@@ -1,0 +1,33 @@
+{
+  "name" : "resurrection-box",
+  "author" : "Chris Swithinbank",
+  "description" : "Sample playback for Clara Iannotta’s Intent on Resurrection — Spring or Some Such Thing",
+  "website" : "https://github.com/delucis/resurrection-box",
+  "version" : "0.0.1",
+  "cues" : {
+    "1" : {
+      "perc2" : "play cue001-perc2.wav"
+    },
+    "13" : {
+      "perc1" : "play cue013-perc1.wav"
+    },
+    "18" : {
+      "perc1" : "stop",
+      "perc2" : "stop"
+    },
+    "43" : {
+      "perc1" : "play cue043-perc1.wav"
+    },
+    "134" : {
+      "perc2" : "play cue134-perc2.wav"
+    },
+    "142" : {
+      "perc1" : "stop",
+      "perc2" : "stop"
+    },
+    "145" : {
+      "perc1" : "play cue145-perc1.wav",
+      "perc2" : "play cue145-perc2.wav"
+    }
+  }
+}
