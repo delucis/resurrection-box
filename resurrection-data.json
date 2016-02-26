@@ -6,28 +6,28 @@
   "version" : "0.0.1",
   "cues" : {
     "1" : {
-      "perc2" : "play cue001-perc2.wav"
+      "perc2" : "play rb.cue001-perc2.wav"
     },
     "13" : {
-      "perc1" : "play cue013-perc1.wav"
+      "perc1" : "play rb.cue013-perc1.wav"
     },
     "18" : {
       "perc1" : "stop",
       "perc2" : "stop"
     },
     "43" : {
-      "perc1" : "play cue043-perc1.wav"
+      "perc1" : "play rb.cue043-perc1.wav"
     },
     "134" : {
-      "perc2" : "play cue134-perc2.wav"
+      "perc2" : "play rb.cue134-perc2.wav"
     },
     "142" : {
       "perc1" : "stop",
       "perc2" : "stop"
     },
     "145" : {
-      "perc1" : "play cue145-perc1.wav",
-      "perc2" : "play cue145-perc2.wav"
+      "perc1" : "play rb.cue145-perc1.wav",
+      "perc2" : "play rb.cue145-perc2.wav"
     }
   }
 }
