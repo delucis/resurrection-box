@@ -1212,7 +1212,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 15.0, 165.0, 36.0, 20.0 ],
+									"patching_rect" : [ 15.0, 180.0, 36.0, 20.0 ],
 									"text" : "sel 1"
 								}
 
@@ -1227,7 +1227,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 45.0, 93.0, 20.0 ],
+									"patching_rect" : [ 15.0, 60.0, 93.0, 20.0 ],
 									"text" : "v #0-instrument"
 								}
 
@@ -1242,7 +1242,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 105.0, 103.0, 20.0 ],
+									"patching_rect" : [ 15.0, 120.0, 103.0, 20.0 ],
 									"text" : "prepend contains"
 								}
 
@@ -1257,7 +1257,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 75.0, 113.0, 20.0 ],
+									"patching_rect" : [ 15.0, 90.0, 113.0, 20.0 ],
 									"text" : "sprintf panning::%s"
 								}
 
@@ -1272,7 +1272,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "dictionary", "", "", "", "bang" ],
-									"patching_rect" : [ 15.0, 135.0, 73.0, 20.0 ],
+									"patching_rect" : [ 15.0, 150.0, 73.0, 20.0 ],
 									"text" : "rb._dict"
 								}
 
@@ -1296,12 +1296,22 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 195.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 210.0, 25.0, 25.0 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-34", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 78.5, 179.0, 137.5, 179.0, 137.5, 51.0, 24.5, 51.0 ],
+									"source" : [ "obj-22", 4 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-35", 0 ],
 									"disabled" : 0,
