@@ -3,7 +3,7 @@
   "author" : "Chris Swithinbank",
   "description" : "Sample playback for Clara Iannotta’s Intent on Resurrection — Spring or Some Such Thing.",
   "website" : "https://github.com/delucis/resurrection-box",
-  "version" : "0.0.1",
+  "version" : "0.1.0",
   "mastervol" : "0.",
   "panning" : {
     "perc1" : "-50",
