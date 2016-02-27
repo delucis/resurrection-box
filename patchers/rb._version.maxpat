@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 30.0, 104.0, 20.0 ],
+					"patching_rect" : [ 15.0, 45.0, 104.0, 20.0 ],
 					"text" : "loadmess version"
 				}
 
@@ -51,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 60.0, 75.0, 20.0 ],
+					"patching_rect" : [ 15.0, 75.0, 75.0, 20.0 ],
 					"text" : "prepend get"
 				}
 
@@ -65,7 +65,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 150.0, 89.0, 20.0 ],
+					"patching_rect" : [ 15.0, 165.0, 89.0, 20.0 ],
 					"text" : "sprintf set v%s"
 				}
 
@@ -80,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 180.0, 46.0, 18.0 ],
+					"patching_rect" : [ 15.0, 195.0, 46.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 6.0, 60.0, 18.0 ],
 					"text" : "v0.0.1",
@@ -98,7 +98,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 120.0, 80.0, 20.0 ],
+					"patching_rect" : [ 15.0, 135.0, 80.0, 20.0 ],
 					"text" : "route version"
 				}
 
@@ -112,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "dictionary", "", "", "", "bang" ],
-					"patching_rect" : [ 15.0, 90.0, 73.0, 20.0 ],
+					"patching_rect" : [ 15.0, 105.0, 73.0, 20.0 ],
 					"text" : "rb._dict"
 				}
 
@@ -136,7 +136,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 180.0, 46.0, 45.0 ],
+					"patching_rect" : [ 15.0, 195.0, 46.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 60.0, 30.0 ],
 					"rounded" : 0
@@ -186,6 +186,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 78.5, 129.0, 129.5, 129.0, 129.5, 35.0, 24.5, 35.0 ],
+					"source" : [ "obj-6", 4 ]
 				}
 
 			}
