@@ -4,6 +4,11 @@
   "description" : "Sample playback for Clara Iannotta’s Intent on Resurrection — Spring or Some Such Thing.",
   "website" : "https://github.com/delucis/resurrection-box",
   "version" : "0.0.1",
+  "mastervol" : "0.",
+  "panning" : {
+    "perc1" : "-50",
+    "perc2" : "50"
+  },
   "cues" : {
     "1" : {
       "perc2" : "play rb.cue001-perc2.aif"
