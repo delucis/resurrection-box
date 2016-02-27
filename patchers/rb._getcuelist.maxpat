@@ -32,12 +32,26 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 15.0, 315.0, 43.0, 20.0 ],
+					"text" : "zl.sort"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.0, 315.0, 204.0, 20.0 ],
+					"patching_rect" : [ 300.0, 345.0, 204.0, 20.0 ],
 					"text" : "internal dictionary reloaded/changed"
 				}
 
@@ -49,7 +63,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 315.0, 25.0, 25.0 ]
+					"patching_rect" : [ 270.0, 345.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -191,7 +205,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 315.0, 179.0, 20.0 ],
+					"patching_rect" : [ 45.0, 345.0, 179.0, 20.0 ],
 					"text" : "list of cue numbers (int int int…)"
 				}
 
@@ -203,7 +217,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 315.0, 25.0, 25.0 ]
+					"patching_rect" : [ 15.0, 345.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -317,10 +331,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
