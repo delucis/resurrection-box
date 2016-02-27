@@ -30,6 +30,17 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "bpatcher",
+					"name" : "rb._version.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 60.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
 					"name" : "rb.adstatus.maxpat",
@@ -110,10 +121,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-5::obj-10" : [ "live.gain~", "Output Volume", 0 ],
 			"obj-2::obj-10" : [ "live.numbox[3]", "live.numbox[1]", 0 ],
 			"obj-3::obj-10" : [ "live.numbox[2]", "live.numbox[1]", 0 ],
-			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ]
+			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-5::obj-10" : [ "live.gain~", "Output Volume", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -209,6 +220,13 @@
 			}
 , 			{
 				"name" : "rb.adstatus.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/resurrection-box/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rb._version.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/resurrection-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
