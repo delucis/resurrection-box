@@ -549,7 +549,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "rb._keyctrl", "module providing keyboard shortcut functionality to tams.masterctrl" ],
+					"args" : [ "rb._keyctrl", "module providing keyboard shortcut functionality to rb.masterctrl" ],
 					"embed" : 1,
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
@@ -656,7 +656,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 15.0, 45.0, 361.0, 20.0 ],
-									"text" : "patcherargs tams._template \"short description of module function\""
+									"text" : "patcherargs rb._template \"short description of module function\""
 								}
 
 							}
@@ -674,7 +674,7 @@
 									"patching_rect" : [ 15.0, 135.0, 98.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 0.0, 150.0, 20.0 ],
-									"text" : "tams._keyctrl",
+									"text" : "rb._keyctrl",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -693,7 +693,7 @@
 									"patching_rect" : [ 120.0, 135.0, 364.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 150.0, 0.0, 570.0, 20.0 ],
-									"text" : "module providing keyboard shortcut functionality to tams.masterctrl"
+									"text" : "module providing keyboard shortcut functionality to rb.masterctrl"
 								}
 
 							}
